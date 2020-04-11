@@ -1,6 +1,26 @@
-body{
-    background-color: ligthgray;
-}
+body {
+    
+    background-color:lightgray;
+    animation-name: bodybg;
+    animation-duration: 4s;
+  }
+  .transeffect{  position: relative;
+    animation-name: example;
+    animation-duration: 3s;  
+      animation-direction: reverse;
+
+  }
+  @keyframes example {
+    from {top: 0px;}
+    to {top: 600px; background-color: blue;}
+  }
+  
+  @keyframes bodybg {
+    0%   {background-color:lightsteelblue;}
+    25%  {background-color:lightyellow;}
+    50%  {background-color:lightpink;}
+    100% {background-color:lightgreen;}
+  }
 @media only screen and (max-width: 600px){
     #hi1 {
         width:100%;
