@@ -1,8 +1,12 @@
+body{
+    background-color: ligthgray;
+}
 @media only screen and (max-width: 600px){
     #hi1 {
         width:100%;
         height:100%;
-    }}
+    }
+}
 
   
  
