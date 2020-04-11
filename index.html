@@ -2,61 +2,135 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <title>Bootstrap 101 Template</title>
-
-  <!-- Bootstrap CDN -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+  <script src="https://kit.fontawesome.com/3358e17eaa.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css" />
+  <title>Prabhdeep_Kaur</title>
 
 </head>
 
 <body>
   <div class="container">
-    <header id="main-header">
-      <div class="row no-gutters">
-        <div class="col-lg-4 col-md-5">
-          <img src="img/person1.jpg" alt="" />
+    <nav class="navbar navbar-expand-sm navbar-dark bg-success">
+      <div class="container">
+        <a class="navbar-brand" href="#">Prabhdeep</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active  " href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="portfolio.html">portfolio</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
         </div>
-        <div class="col-lg-8 col-md-7">
-          <div class="d-flex flex-column">
-            <div class="p-5 bg-dark text-white">
-              <div class="d-flex flex-row justify-content-between align-items-center">
-                <h1 class="display-4">Prabhdeep kaur</h1>
-                <div class="d-none d-md-block">
-                  <a href="http://github.com" class="text-white">
-                    <i class="fab fa-twitter"></i>
-                  </a>
-                </div>
-                <div>
-                  <a href="http://facebook.com" class="text-white">
-                    <i class="fab fa-twitter"></i>
-                  </a>
-                </div>
-                <div>
-                  <a href="http://instagram.com" class="text-white">
-                    <i class="fab fa-instagram"></i>
-                  </a>
-                </div>
-                <div>
-                  <a href="http://github.com" class="text-white">
-                    <i class="fab fa-github"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
+    </nav>
+    <div class="row">
+      <div class="col-sm-4 col-s-7">
+        <img src="prabh.jpg" alt="prabh image">
+
+      </div>
+      <div class="col-sm-8 col-md-8">
+
+        <div class="row mt-5 ">
+          <div class="col-md">
+            <button type="button " id="hi1" class="btn btn-success"> <a href="http://twitter.com" class="text-white">
+                <i class="fab fa-twitter fa-2x"></i></button>
+          </div>
+          <div class="col-md  col-sm-8">
+            <button type="button" id="hi1" class="btn btn-success"> <a href="http://github.com" class="text-white">
+                <i class="fab fa-github fa-2x"></i>
+              </a></button>
+          </div>
+          <div class="col-md  col-sm-8">
+            <button type="button" id="hi1" class="btn btn-success"> <a href="http://facebook.com" class="text-white">
+                <i class="fab fa-facebook fa-2x"></i>
+              </a></button>
+          </div>
+          <div class="col-md col-sm-8">
+            <button type="button" id="hi1" class="btn btn-success"> <a href="http://instagram.com" class="text-white">
+                <i class="fab fa-instagram fa-2x"></i>
+              </a></button>
+          </div>
+          <div class="col-md col-sm-8">
+            <button type="button" id="hi1" class="btn btn-success"> <a href="http://gmail.com" class="text-white">
+                <i class="fas fa-envelope fa-2x"></i>
+              </a></button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!--home-->
+    <div class="card card-body bg-success text-white py-5">
+      <h2>Welcome To My Page</h2>
+
+    </div>
+
+    <div class="card card-body py-5">
+      <h3>My Skills</h3>
+      <p>
+        Adaptable,Time Management,Communication,Innovative,Collaborative,Conflict and Resolution.
+      </p>
+      <hr />
+      <h4>HTML 5</h4>
+      <div class="progress mb-3">
+        <div class="progress-bar bg-success" style="width: 100%;"></div>
+      </div>
+      <h4>CSS 3</h4>
+      <div class="progress mb-3">
+        <div class="progress-bar bg-success" style="width: 100%;"></div>
+      </div>
+      <h4>JavaScript</h4>
+      <div class="progress mb-3">
+        <div class="progress-bar bg-success" style="width: 50%;"></div>
+      </div>
+      <h4>PHP</h4>
+      <div class="progress mb-3">
+        <div class="progress-bar bg-success" style="width: 10%;"></div>
+      </div>
+      <h4>Python</h4>
+      <div class="progress mb-3">
+        <div class="progress-bar bg-success" style="width: 00%;"></div>
+      </div>
+    </div>
 
 
 
-            <script src="http://code.jquery.com/jquery-3.4.1.min.js"
-              integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-              integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-              crossorigin="anonymous"></script>
-            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-              integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-              crossorigin="anonymous"></script>
+    <!--footer with download resume-->
+    <footer id="main-footer position-sticky" class="p-5 bg-success text-white">
+
+      <div class="row">
+        <div class="col-md-6">
+          <a href="#" class="btn btn-outline-light">
+            <i class="fas fa-cloud"></i> Download Resume
+          </a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+
+  <script src="http://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  </div>
 </body>
 
 </html>
